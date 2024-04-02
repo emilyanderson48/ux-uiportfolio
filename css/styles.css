@@ -155,7 +155,12 @@ h3 {
 /* slide 1 */
 
 #cs-rr-section-1 {}
+#rr-1-petfriends {
+    scale: 70%;
+    padding-right: 6rem;
 
+    padding-bottom: 6rem!important;
+}
 
 
 
@@ -167,9 +172,41 @@ h3 {
 
 /* slide 3 */
 #cs-rr-section-3 {}
+.rr-section-3-card-container {
+    flex-wrap: nowrap;
+}
+.rr-section-3-card {
+   justify-content: center!important;
+   text-justify: center!important;
+    color: white!important;
+    width: 10rem;
+    height: 16rem;
+    flex-shrink: 0;
+    background-color: #122B37;
+    padding: 2rem 4rem!important;
 
+  
+}
 
-
+.rr-section-3-banners {
+    background-color: #618291;
+    width: 100%!important;
+    height: 4.625rem;
+    
+}
+#rr-upper-radius {
+    
+}
+.rr-section-3-upper {
+    border-radius: 1000rem 1000rem 0rem 0rem!important;
+    background-color:#122B37 ;
+    height: 18rem;
+    
+}
+.rr-section-3-text {
+    width: 18rem;
+    text-align: center;
+}
 /* slide 4 */
 #cs-rr-section-4 {}
 
@@ -752,3 +789,4 @@ h3 {
     text-align: start !important;
 
 }
+
