@@ -1,0 +1,440 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -.5px;
+
+}
+
+.primary {
+    color: skyblue;
+}
+p {
+    font-size: 1.25rem;
+}
+a {
+    text-decoration: none!important;
+    color: black!important;
+}
+h1 {
+    
+}
+
+h2 {
+    font-size: 3rem!important;
+}
+
+h3 {
+    font-size: 2.75rem!important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.highlight {
+   color: skyblue;
+   font-weight: 600;
+    
+}
+.logo {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+.navLabels {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar {
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.02);
+}
+
+.greeting {
+   font-size: 5rem;
+}
+
+.greeting-p {
+    width: 38rem;
+}
+.self-portrait-container {
+    position: relative;
+}
+.self-portrait {
+    position: absolute;
+    bottom: 0;
+ 
+   
+}
+#landing-section-1 {
+    height: 50rem;
+  
+}
+#cs-rr-section-1 {
+    height: 50rem;
+  
+}
+#about-section-1 {
+    height: 50rem;
+  
+}
+#about-section-1-text {
+    padding-left: 14rem;
+    padding-top: 10rem;
+  
+}
+#landing-section-1-text {
+    padding-left: 14rem;
+    padding-top: 20rem;
+}
+#rr-1-subtext-1 {
+    width:26rem;
+    line-height: 1!important;
+}
+#rr-1-subtext-2 {
+
+    line-height: 1.5!important;
+    padding-top: 3rem;
+}
+#rr-1-text {
+    padding-left: 14rem;
+    padding-top: 6rem;
+}
+#rr-1-text h6 {
+    font-size: 1.25rem;
+    font-weight: 200;
+    letter-spacing: .0125rem;
+ 
+}
+#rr-1-text h7 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: -.5rem;
+    letter-spacing: -.05rem;
+ }
+
+#landing-section-2 {
+    background-color: black;
+    color: white;
+    padding-bottom: 10rem;
+
+}
+
+#landing-section-2-text {
+
+    padding-left: 14rem;
+    padding-top: 10rem;
+   
+}
+#case-preview-styles {
+    padding-top: 3rem;
+    justify-content: center!important;
+}
+
+.case-preview-container {
+    align-content: space-between;
+    height: 56rem;
+   
+}
+
+
+
+.case-preview {
+    padding-top: 4.56rem;
+    padding-bottom: 3.94rem!important;
+    padding-left: 5.94rem!important;
+    padding-left: 6.42rem!important;
+    background-color: white;
+    color: black!important;
+    height: 24rem;
+    width: 70rem!important;
+    border-radius: 2.5rem!important;
+    position: relative;
+}
+
+.case-preview h4 {
+ 
+  
+}
+.case-preview h3 {
+   
+}
+.caseCTA {
+    border-radius: 40rem!important;
+    padding: 1rem 2.5rem!important;
+    
+}
+
+.title-subtitle-group {
+   
+}
+.case-prev-text-group {
+    
+}
+.image-wrap-holder {
+
+}
+.image-wrapper {
+
+    width: 18.4375rem;
+    height: 25.75rem;
+    /* Make the image wrapper full height of the card */
+    overflow: hidden!important;
+    /* Clip the image within the wrapper */
+    z-index: -100;
+    transform: translateY(5%)!important;
+    background-color: white;
+ }
+ .wrap {
+    margin-top:-4.5rem!important;
+    width: 18.4375rem;
+    height: 24rem;
+    overflow: hidden!important;
+ }
+ .clipped-image {
+    /* Make the image full width of the wrapper */
+    height: 100%;
+    width: 100%;
+    scale: 130%;
+    /* Allow the image to maintain its aspect ratio */
+
+    /* Position the image absolutely within the wrapper */
+    object-fit: none;
+    /* Maintain aspect ratio and cover the entire wrapper */
+    padding-left: 1.5rem!important;
+    transform: translateY(7%);
+    filter: saturate(0%)
+
+    /* Center the image vertically */
+   
+   
+    /* Adjust the vertical position */
+ }
+ 
+ @keyframes card-phone-rise {
+    from {
+        transform: translateY(7%);
+        filter: saturate(0%);
+    }
+
+    to {
+        transform: translateY(-4%);
+        filter: saturate(100%);
+    }
+}
+
+#studiyoPrev {
+    background-image: none;  
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-position: center;
+
+}
+ #studiyoPrev:hover .clipped-image {
+    animation-name: card-phone-rise;
+    animation-duration: 1.2s;
+    animation-play-state: initial;
+    /*transform: translateY(-40%);*/
+    -webkit-animation-fill-mode: forwards;
+    }
+  #rrPrev:hover .clipped-image {
+    animation-name: card-phone-rise;
+    animation-duration: 1.2s;
+    animation-play-state: initial;
+    /*transform: translateY(-40%);*/
+    -webkit-animation-fill-mode: forwards;
+    }
+
+#studiyoPrev:hover {
+    animation-name: studiyo-bg-change;
+    animation-duration: 1s;
+}
+
+.case-preview-text {
+    width: 32rem;
+    align-content: space-between 2.19rem!important;
+}
+#studiyoCTA {
+    background: skyblue;
+    color: white;
+    font-weight: 500;
+}
+#studiyoPrev:hover #studiyoCTA {
+    animation: sdiyo-CTA-color-change forwards;
+    animation-duration: 1.2s;
+    font-weight: 500;
+}
+#rrPrev:hover #rrCTA {
+    animation: rr-CTA-color-change forwards;
+    animation-duration: 1.2s;
+    font-weight: 500;
+}
+@keyframes rr-CTA-color-change {
+    from {
+        background-color: grey;
+        color: white;
+    }
+
+    to {
+        background: #F76400;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+@keyframes sdiyo-bg-change {
+    from {
+        background-image:none ;
+    }
+    to {
+        background-image: url('css/images/sdiyo-scissors.svg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+@keyframes sdiyo-CTA-color-change {
+    from {
+        background-color: skyblue;
+        color: white;
+    }
+
+    to {
+        background: #073D3D;
+        color: white;
+        font-weight: 600;
+    }
+}
+#rrCTA {
+    background: skyblue;
+    color: white;
+    font-weight: 500;
+}
+
+#rrCTA:hover {
+    background: #F76400;
+    font-weight: 500;
+}
+
+
+#studiyoCTA:hover {
+    background: skyblue;
+    color: white;
+    font-weight: 500;
+}
+
+#work-section-1 {
+    height: 50rem!important;
+}
+#work-section-1 h1{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 14rem;
+    padding-bottom: 3rem;
+}
+#work-section-1 h2{
+    font-size: 2.5rem!important;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  
+
+   
+}
+#writing-section-1 h2{
+    font-size: 2.5rem!important;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  
+}
+.writing-cards {
+    justify-content: center!important;
+    padding-bottom: 20rem!important;
+}
+
+.work-cards {
+    justify-content: center!important;
+    padding-bottom: 20rem!important;
+}
+.work-card {
+   border-radius: 25px;
+   height: 20rem;
+    background-color: skyblue;
+    width: 30rem!important;
+    margin: 2rem 1rem!important;
+}
+
+.work-card:hover {
+    animation: work-card-color-change forwards;
+    animation-duration: 1s;
+
+
+}
+
+
+ 
+.writing-card {
+    height: 20rem;
+    width:20rem;
+    background-color: skyblue;
+    width: 30rem!important;
+    margin: 2rem 1rem!important;
+    border-radius: 25px;
+}
+#writing-blog {
+    background-color: red;
+}
+#writing-research {
+    background-color: blue;
+}
+.work-descr-hidden {
+    display: none;
+    color: white!important;
+}
+.work-card:hover .work-descr-hidden {
+    padding-right: 1.75rem;
+    padding-top: 5rem!important;
+    text-align: right;
+    display: block;
+
+}
+
+
+
+
+@keyframes work-card-color-change {
+    from {
+        background-color: skyblue;
+        color: black;
+    }
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+#footer {
+    height: 28rem;
+    background-color: lightskyblue;
+    padding-left: 14rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+#footer-form {
+    width: 28rem;
+}
+
+.footer-form-container {
+   
+}
+.form-control {
+    margin-bottom: .5rem!important;
+    border-radius: 40px!important;
+    padding: .75rem!important;
+    padding-left: 1.25em!important;
+
+}
+#footer-form-message {
+    height: 4rem;
+    text-align: start!important;
+
+}
