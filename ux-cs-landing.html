@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
     <title>Emily Anderson UX/UI Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -26,44 +25,29 @@
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Outfit:wght@100;200;300;400;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
-    <div id="navbar" class="row">
+    <div id="navbar-ux-cs-landing" class="row sticky-nav">
         <div class="logo col-2">
-           <img class="logo-adjust" src="/css/images/logonew.png">
+            <a href="index.html">Emily Anderson</a>
         </div>
         <div class="navLabels col-4 offset-4">
-            <div><a href="about.html">About</a></div>
-            <div>Resume</div>
-            <a href="work.html"><div>Work</div></a>
-            <div>Contact</div>
+                <div>About</div>
+                <div>Resume</div>
+                <div>Work</div>
+                <div>Contact</div>
         </div>
     </div>
-    <div id="landing-section-1" class="row">
-        <div id="landing-section-1-text" class="col-6">
-            <h1 class="greeting">Hi, I'm <span class="highlight">Emily!</span></h1>
-            <p class="greeting-p">I'm an aspiring UX Designer, but I'm also an artist (that's my self portrait to the
-                right), a writer (soon to have my bachelor's in English), an oldest sister, a loyal fan of Yasso bars, a
-                pianist, a yoga instructor, one of the top 0.5% fans of the Black Eyed Peas in the year 2023 (yikes),
-                and a curious web developer (you're reading my code right now).
-                I'm a lot of things because I have a lot of big ideas, and I put a lot of heart into translating any and
-                every big idea into reality. </p>
-        </div>
-        <div class="col-5 self-portrait-container">
-            <div class="row self-portrait">
-                <img src="/css/images/selfportrait.JPG">
+
+
+    <div id="ux-cs-landing-section-1">
+        <div id="ux-cs-landing-section-1-text" class="row">
+            <div class="row">
+                <h2>UX/UI Design Case Studies</h2>
+                <p>Participating in a UX/UI Design Certification Program was my favorite thing I have ever done. Here's some highlights from it.</p>
             </div>
         </div>
-    </div>
-    <div id="landing-section-2">
-        <div id="landing-section-2-text" class="row">
-            <div class="col-4">
-                <h2>No Idea Too Big, No Detail Too Small</h2>
-                <p>I've tackled a lot of passion projects. Here's a few that are important to me:</p>
-            </div>
-        </div>
-        <div id="case-preview-styles" class="row case-preview-container">
-            <div id="studiyoPrev" class="row case-preview">
+        <div id="ux-cs-landing-preview-styles" class="row ux-cs-landing-preview-container">
+            <div id="studiyoPrev" class="row ux-cs-landing-case-preview">
                 <div class="col-7 case-preview-text">
                     <div class="row title-subtitle-group">
                         <h3><span class="bold">STUDIYO</span></h3>
@@ -91,7 +75,7 @@
 
             </div>
         
-            <div id="rrPrev" class="row case-preview">
+            <div id="rrPrev" class="row ux-cs-landing-case-preview">
                 <div class="col-7 case-preview-text">
                     <a href="/case-study-rr.html">
                         <div class="row title-subtitle-group">
@@ -128,6 +112,7 @@
             </div>
         </div>
     </div>
+    <script src="script-ux-cs-landing.js"></script>
 </body>
 <footer>
     <div id="footer" class="row">
@@ -139,19 +124,16 @@
             <div class="row">
                 <div class="col-6">
                     <input type="text" class="form-control" placeholder="Your name">
-
+                   
                 </div>
                 <div class="col-6">
                     <input type="text" class="form-control" placeholder="Email">
                 </div>
             </div>
-
+           
             <input id="footer-form-message" type="text" class="form-control" placeholder="Message">
-        </div>
-
+        </div>       
+       
     </div>
 </footer>
-<scrip>
-
-</scrip>
 </html>
