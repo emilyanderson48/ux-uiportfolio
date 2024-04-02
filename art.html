@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <title>Emily Anderson UX/UI Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -25,62 +26,53 @@
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Outfit:wght@100;200;300;400;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <div id="navbar" class="row">
         <div class="logo col-2">
-            Emily Anderson
+            <a href="index.html">Emily Anderson</a>
         </div>
         <div class="navLabels col-4 offset-4">
-                <div>About</div>
-                <div>Resume</div>
+            <div>About</div>
+            <div>Resume</div>
+            <a href="work.html">
                 <div>Work</div>
-                <div>Contact</div>
+            </a>
+            <div>Contact</div>
         </div>
     </div>
-    <div id="work-section-1" class="row">
-        <div class="row">
-            <h1>What do you want to see more of?</h1>
+
+
+    <div id="art-landing-section-1">
+        <div id="ux-cs-landing-section-1-text" class="row">
+            <div class="row">
+                <h2>My Art</h2>
+                <p>Acrylic paintngs</p>
+            </div>
         </div>
-        <div class="row work-cards">
-            <div id="ux-work" class="col-4 work-card">
-              <a href="ux-cs-landing.html">
-                <div class="row"> <h2>UX/UI Design Case Studies</h2>
-                </div>
-               <div class="row">
-                <div class="col-6 offset-1">
-                    <img class="doodle doodleseen" src="/css/images/uxdoodleblack.svg">
-                    <img class="doodle doodlehidden" src="/css/images/uxdoodlewhite.svg">
-                </div>
-               </div>
-               <div class="row work-descr-hidden">
-                <p>Passion projects & Collaborations</p>
-            </div>
-              </a>  
-            
-              
-            </div>
-           
-            <div id="writing-work" class="col-4 work-card">
-               
-                    <h2>Writing Samples</h2>
-                    <div class="work-descr-hidden">
-                        <p>An English major, after all</p>
-                    </div>
-         
-             
-            </div>
-            <div id="art-work" class="col-4 work-card">
-                <a href="/art.html">
-                    <h2>Art</h2>
-                    <div class="work-descr-hidden">
-                        <p>99% chance I'm painting right now</p>
-                    </div>
-                </a>
+       <div id="art-landing-section-2" class="row art-grid-container">
+        <div class="row">
+            <div class="col-3 offset-1">
+                
+                    <a href="https://www.instagram.com/p/C5HdxhSgyre/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                        <div class="row">
+                            <img id="painting-1" class="art" src="/css/images/art/yellowredflowerspainting.jpg">
+                        </div>
+                    </a>
+                   
                 
             </div>
+            <div class="col-2">
+                <div class="row art-text">
+                    <h4>"September,"</h4>
+                    <h3>16 x 20, acrylic paint</h3>
+            
+                </div>
+            </div>
         </div>
+       </div>
     </div>
-   
+
 </body>
 <footer>
     <div id="footer" class="row">
@@ -92,16 +84,17 @@
             <div class="row">
                 <div class="col-6">
                     <input type="text" class="form-control" placeholder="Your name">
-                   
+
                 </div>
                 <div class="col-6">
                     <input type="text" class="form-control" placeholder="Email">
                 </div>
             </div>
-           
+
             <input id="footer-form-message" type="text" class="form-control" placeholder="Message">
-        </div>       
-       
+        </div>
+
     </div>
 </footer>
+
 </html>
