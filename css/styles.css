@@ -536,6 +536,13 @@ h3 {
     height: 50rem !important;
 }
 
+
+#work-section-1 a:hover {
+    color: white!important;
+
+}
+
+
 #writing-section-1 {
     height: 50rem !important;
 }
@@ -605,7 +612,7 @@ h3 {
 
 .writing-card {
     border-radius: 25px;
-    height: 21.75rem !important;
+    height: 22.75rem !important;
     background-color: skyblue;
     width: 30rem !important;
     margin: 2rem 1rem !important;
@@ -626,9 +633,9 @@ h3 {
     width: 28rem !important;
     background-color: white;
     color: black !important;
-    border-radius: 25px !important;
+    border-radius: 45px !important;
     padding-top: .25rem !important;
-    padding-bottom: 1rem !important;
+    padding-bottom: 1.25rem !important;
     margin-top: .5rem !important;
     margin-left: .75rem !important;
     margin-right: .75rem !important;
@@ -707,7 +714,7 @@ h3 {
 
 .work-card:hover .work-descr-hidden {
     padding-right: 1.75rem;
-    padding-top: 5rem !important;
+    padding-top: 1rem !important;
     text-align: right;
     display: block;
 
