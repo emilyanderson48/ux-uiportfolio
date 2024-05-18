@@ -66,3 +66,38 @@ document.addEventListener('DOMContentLoaded', function() {
       targetIdElement.style.color = 'black'; // Restore to default (CSS or inline styles)
     });
   });
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const hoverIdElement = document.getElementById('rrPrev'); // Get the element to hover over
+    const targetIdElement = document.getElementById('footer-ux-cs-landing');
+
+    hoverIdElement.addEventListener('mouseenter', function() {
+      // Change background color and font color on mouse enter
+      targetIdElement.style.backgroundColor = 'black';
+      targetIdElement.style.color = 'white';
+    });
+  
+    hoverIdElement.addEventListener('mouseleave', function() {
+      // Restore default background color and font color on mouse leave
+      targetIdElement.style.backgroundColor = 'lightskyblue'; // Restore to default (CSS or inline styles)
+      targetIdElement.style.color = 'white'; // Restore to default (CSS or inline styles)
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const hoverIdElement = document.getElementById('studiyoPrev'); // Get the element to hover over
+    const targetIdElement = document.getElementById('footer-ux-cs-landing');
+
+    hoverIdElement.addEventListener('mouseenter', function() {
+      // Change background color and font color on mouse enter
+      targetIdElement.style.backgroundColor = 'black';
+      targetIdElement.style.color = 'white';
+    });
+  
+    hoverIdElement.addEventListener('mouseleave', function() {
+      // Restore default background color and font color on mouse leave
+      targetIdElement.style.backgroundColor = 'lightskyblue'; // Restore to default (CSS or inline styles)
+      targetIdElement.style.color = 'white'; // Restore to default (CSS or inline styles)
+    });
+  });

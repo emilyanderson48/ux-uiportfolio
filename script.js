@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     const scrollSections = document.querySelectorAll('.scroll-section');
     const body = document.body; // Get the body element
-    const navbar = document.getElementById('navbar'); 
+    const navbar = document.getElementById('navbar');
+    
 
 
     window.addEventListener('scroll', function () {
         const scrollPosition = window.scrollY; // Get the current scroll position
-        const sectionHeight = 34 * 16; // 50rem converted to pixels (1rem = 16px)
+        const sectionHeight = 36 * 16; // 36rem converted to pixels (1rem = 16px)
 
         // Calculate which section the user is in based on scroll position
         const currentSectionIndex = Math.floor(scrollPosition / sectionHeight);
@@ -32,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 body.style.backgroundColor = '#618291'; // Third section (index 2) has yellow background
                 navbar.style.backgroundColor = '#618291';
                 body.style.color = 'white'; 
-               
                 break;
             case 4:
                 body.style.backgroundColor = '#122B37'; // Third section (index 2) has yellow background
