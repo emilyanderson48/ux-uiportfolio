@@ -12,7 +12,7 @@ body,
 }
 
 #navbar-split-bg {
-    background-color: white!important;
+    background-color: white !important;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
     transition: background-color 1.5s ease;
@@ -45,6 +45,7 @@ h8 {
     font-size: 1.15rem;
     font-weight: 600;
 }
+
 .bold {
     font-weight: 700;
 }
@@ -90,12 +91,12 @@ h8 {
 }
 
 .sticky-nav {
-  
+
     opacity: 90%;
     position: sticky;
     top: 0;
     /* Stick the navigation bar to the top of the viewport */
-    width: 101%!important;
+    width: 101% !important;
     /* Ensure the navigation bar spans the full width of the viewport */
     background-color: #ffffff;
     /* Optional: Add background color */
@@ -181,82 +182,88 @@ h8 {
 
 
 /* slide 2 */
-#cs-rr-section-2 {
-    
-}
+#cs-rr-section-2 {}
 
 #cs-rr-section-2-img1 {
     scale: 80%;
-    margin-left: -2rem!important;
+    margin-left: -2rem !important;
 }
+
 #cs-rr-section-2-split-bg {
-    background-color: white!important;
+    background-color: white !important;
 }
+
 #cs-rr-section-2-img2 {
-    scale: 50%;
-    margin-left: -4rem!important;
+    scale: 90%;
+    margin-left: -8rem!important;
 }
+
 /* slide 3 */
-#cs-rr-section-3 {}
+#cs-rr-section-3 {
+    flex-wrap: none!important;
+}
 
 .rr-section-3-card-container {
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: -2.5rem!important;
+    margin-top: -2.5rem !important;
 }
 
 .rr-section-3-banners-container {
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: -2.5rem!important;
-}
-.rr-section-3-card {
-    justify-self: center!important;
-    text-justify: center!important;
-    color: white !important;
-    height: 16rem;
-    flex-shrink: 0;
-    background-color: #122B37;
-    width: 22rem!important;
-    margin: 0rem 1.5rem;
-  
+    margin-top: -2.5rem !important;
 }
 
 .rr-section-3-card {
-    justify-self: center!important;
-    text-justify: center!important;
+    justify-self: center !important;
+    text-justify: center !important;
     color: white !important;
     height: 16rem;
     flex-shrink: 0;
     background-color: #122B37;
-    width: 22rem!important;
+    width: 22rem !important;
     margin: 0rem 1.5rem;
-  
+
 }
+
+.rr-section-3-card {
+    justify-self: center !important;
+    text-justify: center !important;
+    color: white !important;
+    height: 16rem;
+    flex-shrink: 0;
+    background-color: #122B37;
+    width: 22rem !important;
+    margin: 0rem 1.5rem;
+
+}
+
 .rr-section-3-banners {
-    justify-self: center!important;
+    justify-self: center !important;
     flex-shrink: 0;
     background-color: #618291;
-    width: 22rem!important;
+    width: 22rem !important;
     height: 4.625rem;
-    margin-left: 1.5rem!important;
-    margin-right: 1.5rem!important;
-  
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+
 
 
 }
 
 .rr-section-3-banners-container {
-    justify-content: space-between 1.5rem!important;
+    justify-content: space-between 1.5rem !important;
     display: flex;
 }
+
 #rr-upper-radius {}
 
 .rr-section-3-upper {
     border-radius: 600rem 600rem 0rem 0rem !important;
     background-color: #122B37;
     height: 12rem;
-    width: 22rem!important;
+    width: 22rem !important;
     margin: 0rem 1.5rem;
 
 }
@@ -267,27 +274,31 @@ h8 {
 
 .rr-section-3-text p {
     padding: 1.25rem 1.75rem;
-    text-align: center!important;
-    justify-content: center!important;
+    text-align: center !important;
+    justify-content: center !important;
 }
 
 #rr-section-3-banner-container {
-    margin-top: -6rem!important;
-  
+    margin-top: -6rem !important;
+
 }
+
 #rr-section-3-banner-container div {
     display: grid;
-  
+
 }
 
 /* slide 4 */
 #cs-rr-section-4 {}
+
 #cs-rr-section-4-img1 {
     scale: 80%;
 }
+
 #cs-rr-section-4-split-bg {
-    background-color: white!important;
+    background-color: white !important;
 }
+
 /* slide 5 */
 #cs-rr-section-5 {}
 
@@ -319,17 +330,18 @@ h8 {
 .skills-prev {
     background-color: white;
     justify-content: center;
-    flex-wrap: nowrap!important;
+    flex-wrap: nowrap !important;
     padding-left: 2.15rem;
 }
 
 .skill-item {
     padding-top: 4rem;
-    height:8rem;
+    height: 8rem;
     background-color: grey;
     margin: 0rem 1rem 1rem 0rem;
-    
+
 }
+
 #landing-section-2 {
     background-color: black;
     color: white;
@@ -357,6 +369,7 @@ h8 {
     padding-bottom: 6rem;
 
 }
+
 #ux-cs-landing-section-1 {
     background-color: white;
     color: black;
@@ -660,25 +673,29 @@ h8 {
 #writing-section-1 {
     height: 50rem !important;
 }
+
 .writing-skill-item-container {
-    justify-content: center!important;
+    justify-content: center !important;
 }
 
 .ux-skill-item-container {
-    justify-content: center!important;
+    justify-content: center !important;
 }
+
 .writing-skill-item {
     background-color: grey;
-    width: 10rem!impoRTANT;
-    padding: 1rem 2rem!important;
+    width: 10rem !impoRTANT;
+    padding: 1rem 2rem !important;
     margin: .5rem .5rem;
 }
+
 .ux-skill-item {
     background-color: grey;
-    width: 10rem!impoRTANT;
-    padding: 1rem 2rem!important;
+    width: 10rem !impoRTANT;
+    padding: 1rem 2rem !important;
     margin: .5rem .5rem;
 }
+
 .writing-descr {
     padding-left: .75rem;
 }
@@ -908,6 +925,7 @@ h8 {
     padding-top: 12rem;
     padding-bottom: 12rem;
 }
+
 #footer-ux-cs-landing {
     transition: background-color 1.5s ease, color .8s ease !important;
     height: 28rem;
@@ -937,8 +955,237 @@ h8 {
 
 }
 
- /* Media query for mobile devices */
- @media (max-width: 576px) {
-   
-   
-  }
+/* Media query for mobile devices */
+@media (max-width: 576px) {
+    body {
+        width: v;
+    }
+
+    p {
+        font-size: 1.15rem;
+    }
+
+    #landing-section-1 {}
+
+    #landing-section-1-text {
+        padding-left: 3.25rem;
+        padding-right: 3.25rem;
+        padding-top: 8rem;
+    }
+
+
+    #landing-section-2-text {
+
+        padding-left: 3.25rem;
+        padding-right: 3.25rem;
+        padding-top: 8rem;
+
+    }
+
+    #landing-section-2-text h2 {
+
+        font-size: 2rem !important;
+
+    }
+
+    .greeting {
+        font-size: 3rem !important;
+        text-wrap: none !important;
+    }
+
+    .greeting-p {
+        width: 100%;
+    }
+
+    .image-wrapper {
+        display: inline-flex!important;
+        width: 100% !important;
+        height: 100%;
+        /* Make the image wrapper full height of the card */
+        /* Clip the image within the wrapper */
+        z-index: -100;
+        background-color: white;
+    }
+
+    .wrap {
+        margin-top: 0rem !important;
+        width: 100%;
+
+    }
+
+    #case-preview-styles {
+        padding-top: 3rem;
+        justify-content: center !important;
+        margin-left: 0rem;
+        margin-right: 0rem !important;
+    }
+
+    #case-preview-styles h3 {
+        font-size: 1.5rem !important;
+    }
+
+    .case-preview-container {
+        align-content: space-between;
+        height: auto;
+
+    }
+
+    .case-preview {
+        flex-wrap: none !Important;
+        padding-top: 3rem;
+        padding-bottom: 3rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        background-color: white;
+        color: black !important;
+        height: 46rem;
+        border-radius: 2rem!important;
+        display: inline-flex!important;
+        margin-bottom: 1rem;
+    }
+
+    .case-preview-text {
+        width: 20rem !important;
+        align-content: space-between 1.5rem !important;
+    }
+
+    .caseCTA {
+        border-radius: 40rem !important;
+        padding: .75rem 1.25rem !important;
+
+    }
+
+    #studiyoCTA {
+        font-size: 1rem;
+
+    }
+
+    #rrCTA {
+        font-size: 1rem;
+    }
+
+    #case-preview-CTA-mobile {
+        justify-content: center !important;
+    }
+
+
+    .clipped-image {
+        /* Make the image full width of the wrapper */
+        height: 100%;
+        width: 100%;
+        scale: 100%;
+        /* Allow the image to maintain its aspect ratio */
+        /* Position the image absolutely within the wrapper */
+        object-fit: cover;
+        /* Maintain aspect ratio and cover the entire wrapper */
+        filter: saturate(0%);
+        vertical-align: top !important;
+        transform: translateY(0%) !important;
+    }
+
+    #footer {
+        height: 20rem;
+        background-color: lightskyblue;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin: 0rem 0rem !important;
+    }
+
+    #footer h3 {
+        font-size: 2rem !important;
+    }
+
+    .image-wrap-holder {}
+
+    /* START work landing mobile */
+    #work-section-1 h1 {
+        font-size: 1.25rem;
+        
+    }
+    #work-section-1 h2 {
+        font-size: 1.5rem!important;
+    }
+
+
+.work-cards {
+    justify-content: center!important;
+    padding-bottom: .5rem!important;
+}
+.work-card {
+    border-radius: 25px;
+    height: 16rem;
+    background-color: skyblue;
+
+}
+
+
+    /* END work landing mobile */
+    /* START rr case study styling mobile */
+    .cs-rr-style {
+        height: 50rem;
+        display: block;
+    }
+
+    .cs-rr-text-container {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        padding-top: 2rem !important;
+    }
+
+    .cs-rr-style-text {
+        line-height: 1 !important;
+        width: 20rem;
+    }
+
+    .cs-rr-style-text h6 {
+        font-size: 1rem;
+        font-weight: 200;
+        letter-spacing: .0001rem;
+    }
+
+    .cs-rr-style-text h7 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: -.5rem;
+        letter-spacing: -.025rem;
+    }
+
+    .cs-rr-style-subtext-2 {
+        line-height: 1.25 !important;
+        padding-top: 1rem;
+    }
+
+    .cs-rr-style-subtext-2 p {
+        font-size: 1rem;
+    }
+
+    #rr-1-petfriends {
+        scale: 100%;
+        padding-right: 1rem;
+        padding-left: 2.75rem;
+        padding-top: 1rem;
+        padding-bottom: 4rem !important;
+
+    }
+
+    #cs-rr-section-2-img2 {
+        scale: 90%;
+        margin-left: 0rem!important;
+    }
+
+    #cs-rr-section-2-img1 {
+        scale: 100%;
+    }
+
+    .rr-section-3-upper {
+    border-radius: 600rem 600rem 0rem 0rem !important;
+    background-color: #122B37;
+    height: 12rem;
+    width: 22rem !important;
+    margin: 0rem 1.5rem;
+
+}
+    /* END rr case study stylinig mobile */
+}
