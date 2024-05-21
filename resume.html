@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <title>Emily Anderson UX/UI Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -25,25 +26,136 @@
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Outfit:wght@100;200;300;400;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <div id="navbar" class="row">
         <div class="logo col-2">
             <a href="index.html">Emily Anderson</a>
         </div>
         <div class="navLabels col-4 offset-4">
-                <div>About</div>
-                <div>Resume</div>
-                <div>Work</div>
-                <div>Contact</div>
+            <div>About</div>
+            <div>Resume</div>
+            <div>Work</div>
+            <div>Contact</div>
         </div>
     </div>
 
-<div class="row">
-    <h1>Resume</h1>
-</div>
+    <div class="row">
+        <h1>Resume</h1>
+    </div>
+<section id="5-block-test-sizing">
+    <div id="5-block-test" class="row">
+        <div id="block-1-test" class="block-test-item block-test-textbox">
+            <h2>Figma Prototyping</h2>
+            <p>Can bring any app concept to life (here’s Exhibit A)</p>
+        </div>
+        <div id="block-2-test" class="block-test-item block-test-textbox">
+            <h2>Interaction Design</h2>
+            <p>Complex variable and conditional interactions for simple UX</p>
+
+        </div>
+        <div id="block-3-test" class="block-test-item block-test-textbox">
+            <h2>Coding</h2>
+            <p>HTML, CSS, & Bootsrap</p>
+        </div>
+        <div id="block-4-test" class="block-test-item block-test-textbox">
+            <h2>Button Management</h2>
+            <p>Loves keeping the tiny details consistent</p>
+        </div>
+        <div id="block-5-test" class="block-test-item block-test-textbox">
+            <h2>User Research</h2>
+            <p>Curious girl + critical thinker + fan of interviewing = Eureka!</p>
+        </div>
+    </div>
+</section>
 
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const boxes = document.querySelectorAll(".block-test-item");
 
+            boxes.forEach(box => {
+                box.addEventListener("mouseover", () => {
+                    boxes.forEach(b => {
+                        if (b === box) {
+                            b.style.flex = "1.75";
+                        } else {
+                            b.style.flex = "1";
+                        }
+                    });
+                });
+
+                box.addEventListener("mouseout", () => {
+                    boxes.forEach(b => {
+                        b.style.flex = "1";
+                    });
+                });
+            });
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const boxes = document.querySelectorAll(".block-test-item");
+
+            function handleHover(box) {
+                boxes.forEach(b => {
+                    if (b === box) {
+                        b.classList.add('block-test-hovered');
+                        b.classList.remove('block-test-not-hovered');
+                    } else {
+                        b.classList.remove('block-test-hovered');
+                        b.classList.add('block-test-not-hovered');
+                    }
+                });
+            }
+
+            function handleMouseout() {
+                boxes.forEach(b => {
+                    b.classList.remove('block-test-hovered', 'block-test-not-hovered');
+                });
+            }
+
+            boxes.forEach(box => {
+                box.addEventListener("mouseover", () => {
+                    handleHover(box);
+                });
+
+                box.addEventListener("mouseout", () => {
+                    handleMouseout();
+                });
+            });
+
+            document.querySelector('#5-block-test').addEventListener('mouseout', () => {
+                document.querySelectorAll('.block-test-item').forEach(b => {
+                    b.classList.remove('block-test-hovered', 'block-test-not-hovered');
+                });
+                document.querySelector('#5-block-test').classList.add('block-test-purple');
+            });
+
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const boxes = document.querySelectorAll(".block-test-item");
+
+            boxes.forEach(box => {
+                box.addEventListener("mouseover", () => {
+                    boxes.forEach(b => {
+                        if (b === box) {
+                            b.querySelector('p').style.opacity = 1;
+                        } else {
+                            b.querySelector('p').style.opacity = 0;
+                        }
+                    });
+                });
+
+                box.addEventListener("mouseout", () => {
+                    boxes.forEach(b => {
+                        b.querySelector('p').style.opacity = 0;
+                    });
+                });
+            });
+        });
+    </script>
 
 
 </body>
@@ -57,16 +169,17 @@
             <div class="row">
                 <div class="col-6">
                     <input type="text" class="form-control" placeholder="Your name">
-                   
+
                 </div>
                 <div class="col-6">
                     <input type="text" class="form-control" placeholder="Email">
                 </div>
             </div>
-           
+
             <input id="footer-form-message" type="text" class="form-control" placeholder="Message">
-        </div>       
-       
+        </div>
+
     </div>
 </footer>
+
 </html>
